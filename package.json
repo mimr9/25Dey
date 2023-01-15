@@ -1,0 +1,22 @@
+{
+  "name": "25dey",
+  "version": "1.0.0",
+  "description": "just another html css code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Mohammadreza Moghimi",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "gulp": "^4.0.2",
+    "gulp-compass": "^2.1.0",
+    "highlight.js": "^11.7.0"
+  }
+}
