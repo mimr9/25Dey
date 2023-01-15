@@ -19158,6 +19158,10 @@ section {
   border: 2px solid #fff;
 }
 
+main.columns {
+  margin-bottom: 0 !important;
+}
+
 main .colOne {
   background-color: #F7F8FA;
   color: #565759;
@@ -19184,6 +19188,12 @@ main .colTwo {
 main .colThree {
   background-color: #121B24;
   color: #fff;
+}
+main .nested {
+  display: none;
+}
+main .mActive {
+  display: block;
 }
 
 pre, code {

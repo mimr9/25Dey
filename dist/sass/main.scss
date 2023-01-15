@@ -27,6 +27,10 @@ section {
   border: 2px solid #fff;
 }
 
+main.columns {
+  margin-bottom: 0 !important;
+}
+
 main {
 
   .colOne {
@@ -61,6 +65,14 @@ main {
   .colThree {
     background-color: #121B24;
     color: #fff;
+  }
+
+  .nested {
+    display: none;
+  }
+
+  .mActive {
+    display: block;
   }
 }
 
