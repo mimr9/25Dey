@@ -1,0 +1,54 @@
+//imports{{{
+@import 'bulma';
+@import 'boxicons';
+@import 'fonts';
+//imports}}}
+
+html, body {
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad, sans-serif;
+}
+
+section {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+main {
+
+  .colOne {
+    background-color: #F7F8FA;
+    color: #565759;
+
+    .brand {
+      align-items: center;
+      column-gap: .7em;
+      margin: 1.5em 2em 1em 1em;
+
+      img {
+        width: 50px;
+      }
+    }
+
+    form.field.has-addons {
+      justify-content: center;
+      margin-top: 2.5em;
+    }
+
+    aside.menu {
+      padding: 1em 1.5em;
+    }
+  }
+
+  .colTwo {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .colThree {
+    background-color: #121B24;
+    color: #fff;
+  }
+}
