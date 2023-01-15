@@ -14,7 +14,7 @@
 <body><!--{{{-->
     <main class="columns">
         <!--column one--><!--{{{-->
-        <section class="column is-3 colOne">
+        <section class="section column is-3 colOne">
             <div class="brand is-flex">
                 <img src="./img/brand.svg" alt="brand logo"/>
                 <h3 class="title is-3">
@@ -69,16 +69,25 @@
                   <ul>
                     <li>
                         <a>
+                          <span class="tag is-success ml-2">
+                          GET
+                          </span>
                             اعضا
                         </a>
                     </li>
                     <li>
                         <a>
+                          <span class="tag is-success ml-2">
+                          GET
+                          </span>
                             افزونه‌ها
                         </a>
                     </li>
                     <li>
                         <a>
+                          <span class="tag is-success ml-2">
+                          GET
+                          </span>
                             افزودن عضو
                         </a>
                     </li>
@@ -125,18 +134,74 @@
         </section>
         <!--column one--><!--}}}-->
         <!--column two--><!--{{{-->
-        <section class="column is-5 colTwo">
-            یک چیزی 
+        <section class="section column is-5 colTwo">
+          <h1 class="title is-2">
+            مدیریت تیم
+          </h1>
+          <h3 class="title is-4 py-4">
+            تیم‌های با سایز کوچک و بزرگ
+          </h3>
+
+          <div class="level box dir-ltr">
+            <div class="level-left">
+              <span class="tag is-success level-item mx-3">GET</span> 
+              <span class="level-item">
+                /v2/public/home/files/docs
+              </span>
+            </div>
+            <div class="level-right icon is-size-4">
+              <i class='bx bx-chevron-down' ></i> 
+            </div>
+          </div>
         </section>
         <!--column two--><!--}}}-->
         <!--column three--><!--{{{-->
-        <section class="column is-4 colThree">
-            یک چیزی 
+        <section class="section column is-4 colThree">
+          <h5 class="title is-5 has-text-white">
+            درخواست‌های نمونه
+          </h5>
+          <span class="tag is-white is-medium">
+            Curl
+          </span>
+          <!--json example--><!--{{{-->
+          <pre>
+            <code>
+{"web-app": {
+  "servlet": [   
+    {
+      "servlet-name": "cofaxCDS",
+      "servlet-class": "org.cofax.cds.CDSServlet",
+      "init-param": {
+        "configGlossary:installationAt": "Philadelphia, PA",
+        "defaultFileTemplate": "articleTemplate.htm",
+        "useJSP": false,
+        "dataStoreInitConns": 10,
+        "dataStoreMaxConns": 100,
+        "dataStoreConnUsageLimit": 100,
+        "dataStoreLogLevel": "debug",
+        "maxUrlLength": 500}},
+    {
+      "servlet-name": "cofaxAdmin",
+      "servlet-class": "org.cofax.cds.AdminServlet"},
+ 
+    {
+      "servlet-name": "fileServlet",
+      "servlet-class": "org.cofax.cds.FileServlet"},
+    ],
+  "taglib": {
+    "taglib-uri": "cofax.tld",
+    "taglib-location": "/WEB-INF/tlds/cofax.tld"
+    } } }
+            </code>
+          </pre>
+          <!--json example--><!--}}}-->
         </section>
         <!--column three--><!--}}}-->
     </main>
 
     <!--javascript import--><!--{{{-->
+    <script src="./js/highlight.min.js.js" charset="utf-8"></script>
+    <script src="./js/script.js" charset="utf-8"></script>
     <!--javascript import--><!--}}}-->
 </body><!--}}}-->
 </html>

@@ -2,12 +2,23 @@
 @import 'bulma';
 @import 'boxicons';
 @import 'fonts';
+@import 'highlight.min';
+@import 'obsidian';
 //imports}}}
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.dir.rtl {
+  direction: rtl;
+}
 
 html, body {
   box-sizing: border-box;
   direction: rtl;
   font-family: estedad, sans-serif;
+  line-height: 1.9;
 }
 
 section {
@@ -51,4 +62,9 @@ main {
     background-color: #121B24;
     color: #fff;
   }
+}
+
+pre, code {
+  direction: ltr;
+  border-radius: 20px;
 }
